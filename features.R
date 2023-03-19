@@ -2,7 +2,7 @@ library(Tushare)
 library(stringr)
 
 
-api <- Tushare::pro_api(token = 'b9d8623c7dbde160e75147e2b47588810dd8dc3033ec8cadc9f64f53')
+api <- Tushare::pro_api(token = '')
 
 data <- api(api_name = 'stock_basic',
             # exchange = 'SZSE', 
